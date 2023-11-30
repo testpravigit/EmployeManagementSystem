@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>project</display-name>
+  <welcome-file-list>
+    <welcome-file>loginpage_project.html</welcome-file>
+  
+  </welcome-file-list>
+ <servlet> 
+<servlet-name>Valid</servlet-name>
+<servlet-class>account_validation.Validation_project</servlet-class>
+
+
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Valid</servlet-name>
+<url-pattern>/Valid1</url-pattern>
+
+</servlet-mapping>
+ <servlet> 
+<servlet-name>Forgot</servlet-name>
+<servlet-class>account_validation.forgotpassword_project</servlet-class>
+
+
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Forgot</servlet-name>
+<url-pattern>/Forgot1</url-pattern>
+
+</servlet-mapping>
+ 
+  <servlet> 
+<servlet-name>Create</servlet-name>
+<servlet-class>account_validation.Createaccount_project</servlet-class>
+
+
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Create</servlet-name>
+<url-pattern>/Create1</url-pattern>
+
+</servlet-mapping>
+
+  <servlet> 
+<servlet-name>Home</servlet-name>
+<servlet-class>employe_crud.HomeServlet</servlet-class>
+
+
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Home</servlet-name>
+<url-pattern>/Home1</url-pattern>
+
+</servlet-mapping>
+
+  <servlet> 
+<servlet-name>Edit</servlet-name>
+<servlet-class>employe_crud.EditServlet</servlet-class>
+
+
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Edit</servlet-name>
+<url-pattern>/Edit1</url-pattern>
+
+</servlet-mapping>
+
+  <servlet> 
+<servlet-name>Delete</servlet-name>
+<servlet-class>employe_crud.DeleteServlet</servlet-class>
+
+
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Delete</servlet-name>
+<url-pattern>/Delete1</url-pattern>
+
+</servlet-mapping>
+</web-app>

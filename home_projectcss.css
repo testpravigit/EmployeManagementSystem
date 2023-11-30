@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{
+	background-color: skyblue;
+}
+.edit{
+	border: none;
+	border-radius: 5px;
+	background-color: green;
+	color: white;
+	text-decoration: none;
+}
+.delete{
+	border: none;
+	border-radius: 5px;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	
+}
+
+.table{
+	color: skyblue;
+	background-color: white;
+	width: max-content;
+	height: max-content;
+		padding: 50px;
+		position: relative;
+		top: 50px;
+		left: 400px;
+	
+}
+tr,td{
+	padding: 50px;
+	color: skyblue;
+}
+a{
+	text-decoration: none;
+	color: wheat;
+	
+}
